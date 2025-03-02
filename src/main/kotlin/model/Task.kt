@@ -1,10 +1,10 @@
-package sammy.ktor.tutorials
+package sammy.ktor.tutorials.model
 
 enum class Priority {
-    LOW,
-    MEDIUM,
-    HIGH,
-    VITAL
+    Low,
+    Medium,
+    High,
+    Vital
 }
 
 data class Task(val name:String, val description:String, val priority: Priority)
